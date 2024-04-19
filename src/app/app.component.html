@@ -1,4 +1,4 @@
-<form #formdata = "ngForm" id="formContent" (ngSubmit)="onSubmit(formdata)" novalidate>
+<form #formdata = "ngForm" id="formContent" (ngSubmit)="enviar()" novalidate>
   <input [(ngModel)]="reserva" type="text" placeholder="Reserva" name="something1"/>
   <input [(ngModel)]="fecha" type="text" placeholder="Fecha" name="something2"/>
   <input [(ngModel)]="pais" type="text" placeholder="Pais" name="something3"/>
